@@ -22,5 +22,22 @@ you create a structure that holds quotes and their associated attributions and t
 all of the quotes using the format in the example. An array of maps would be a good choice.
 */
 
+import java.util.Scanner;
+
 public class App {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("What is the quote? ");
+        String str = in.nextLine();
+
+        Scanner in2 = new Scanner(System.in);
+        System.out.print("Who said it? ");
+        String str2 = in.nextLine();
+
+        System.out.println( str2 + " says, " + "\"" + str + "\"" );
+
+
+
+
+    }
 }
