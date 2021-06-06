@@ -1,6 +1,10 @@
 package ex03;
 
 /*
+
+*  UCF COP3330 Summer 2021 Assignment 1 Solution
+*  Copyright 2021 Jeyler Zabala
+
 Exercise 3 - Printing Quotes
 Quotation marks are often used to denote the start and end of a string.
 But sometimes we need to print out the quotation marks themselves by using escape characters.
@@ -30,7 +34,6 @@ public class App {
         System.out.print("What is the quote? ");
         String str = in.nextLine();
 
-        Scanner in2 = new Scanner(System.in);
         System.out.print("Who said it? ");
         String str2 = in.nextLine();
 
